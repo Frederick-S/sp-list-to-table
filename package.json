@@ -1,0 +1,26 @@
+{
+  "name": "sp-list-to-table",
+  "version": "0.0.1",
+  "description": "Get SharePoint list items' data as a table.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frederick-S/sp-list-to-table.git"
+  },
+  "keywords": [
+    "SharePoint"
+  ],
+  "author": "Frederick-S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frederick-S/sp-list-to-table/issues"
+  },
+  "homepage": "https://github.com/Frederick-S/sp-list-to-table#readme",
+  "dependencies": {
+    "sp-context-helper": "0.0.2",
+    "sp-each": "0.0.5"
+  }
+}

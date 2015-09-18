@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="2edd8a6e-3d8f-4806-85e5-7022e8930950" 
+        solutionId="2edd8a6e-3d8f-4806-85e5-7022e8930950" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePoint_App_SPList2TableTest"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="3e8af99b-8d03-46d4-9c79-cd4d6e3101a5" />
+  </features>
+</package>

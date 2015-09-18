@@ -13,10 +13,10 @@ var list2Table = require('sp-list-to-table');
 var webUrl = 'web url';
 var listTitle = 'list title';
 var camlQuery = new SP.CamlQuery();
-var include = 'Include(Title, Name)'; 
+var includes = ['Title', 'Name']; 
 var useAppContextSite = false;
 
-list2Table(webUrl, listTitle, camlQuery, include, useAppContextSite, function (table) {
+list2Table(webUrl, listTitle, camlQuery, includes, useAppContextSite, function (table) {
     // Do something
 }, function (sender, args) {
     // Error

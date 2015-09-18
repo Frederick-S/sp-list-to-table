@@ -142,15 +142,6 @@
 	    return keysArray;
 	}
 
-	var contains = function (array, value) {
-	    for (var i = 0, length = array.length; i < length; i++) {
-	        if (array[i] === value) {
-	            return true;
-	        }
-	    }
-
-	    return false;
-	}
 
 	function list2Table(webUrl, listTitle, camlQuery, includes, useAppContextSite, done, error) {
 	    var contextWrapper = contextHelper(webUrl, useAppContextSite);

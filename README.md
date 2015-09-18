@@ -10,7 +10,7 @@ npm install sp-list-to-table --save
 ```js
 var list2Table = require('sp-list-to-table');
 
-var weburl = 'web url';
+var webUrl = 'web url';
 var listTitle = 'list title';
 var include = 'Include(Title, Name)'; 
 var useAppContextSite = false;

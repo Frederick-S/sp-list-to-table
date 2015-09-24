@@ -1,5 +1,5 @@
 # sp-list-to-table
-Get SharePoint list items' data as a table.
+Get SharePoint list items' data as a table (An array of arrays).
 
 ## Installation
 ```
@@ -18,6 +18,8 @@ var useAppContextSite = false;
 
 list2Table(webUrl, listTitle, camlQuery, includes, useAppContextSite, function (table) {
     // Do something
+    // table[0] is an array of field names
+    // table[1..n] is field values
 }, function (sender, args) {
     // Error
 }):

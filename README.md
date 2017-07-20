@@ -1,4 +1,6 @@
 # sp-list-to-table
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Frederick-S/sp-list-to-table.svg)](https://greenkeeper.io/)
 Get SharePoint list items' data as a table (An array of arrays).
 
 ## Installation
